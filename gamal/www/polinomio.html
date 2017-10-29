@@ -1,0 +1,51 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ecuación 2 Grado</title>
+
+
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="css/style.css">
+<script language="javascript" type="text/javascript" src="js/polinomio.js"></script> 
+
+</head>
+
+<body>
+<h1 class="header">  
+<form name="expresion">
+
+<div id="form-calc">
+ Ingrese datos de la Siguiente forma: Ax² + Bx + C 
+
+</h1>
+<label for="a">Ingrese A:</label>
+<input type="number" id="a" name="a" />
+
+<label for="b">Ingrese B:</label>
+<input type="number" id="b" name="b" />
+
+<label for="c">Ingrese C:</label>
+<input type="number" id="c" name="c" />
+<br />
+
+<input id="boton" type="button" value="Calcular" onclick="Solucion()" />
+
+<div id="resultado">
+<h2>Resultado</h2>
+
+<p id="info"></p>
+<label>x 1</label>
+<input type="number" id="x1"/>
+<label>x 2</label>
+<input type="number" id="x2"/>
+<label>Resultado grafico </label>
+<div id="img"><img name="grafico"></img></div>
+
+</div>
+</div>
+</form>
+<h3 id="footer"> Polinomio de 2do grado</h3>
+</body>
+</html>
